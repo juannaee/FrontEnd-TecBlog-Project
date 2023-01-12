@@ -1,0 +1,269 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/**Aplicações dos membros da pagina**
+**Body,Header,Main,footer**/
+body {
+  font: 1em;
+  font-family: "Times New Roman", Times, serif;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 27%,
+    rgba(9, 103, 121, 1) 74%,
+    rgba(128, 0, 255, 1) 100%
+  );
+}
+
+header {
+  background: rgb(36, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 0, 1) 5%,
+    rgba(105, 9, 121, 1) 42%,
+    rgba(0, 48, 255, 1) 100%
+  );
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  opacity: 0.9;
+}
+
+main {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+  top: 100px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  color: #f0f8ff;
+  padding: 100px 0px 0px 0px;
+}
+
+/**Fim-Aplicações dos membros da pagina
+Body,Header,Main,footer**/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/**Aplicações genericas de layouts**/
+
+a {
+  margin: 5px;
+  color: #ffa500;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 3px 0px;
+  display: inline-block;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #ffa500;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #9400d3;
+  border-radius: 15px;
+}
+a:active {
+  transition: 0.1s;
+  color: #ff0000;
+  background-color: #f0f8ff;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ffa500;
+}
+
+
+/**Fim-Aplicações genericas de layouts**/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/**Formatações de textos especificos*/
+
+.amarelo {
+  color: #ffa500;
+  box-shadow: 1px 1px 1px 1px #9400d3;
+  border-radius: 15px;
+  padding: 0px 5px;
+}
+.titulo-postagem {
+  font-size: 1.5em;
+  color: #f0f8ff;
+}
+.data-postagem {
+  font-style: italic;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 800;
+  color: #ffa500;
+}
+
+.text-postagens {
+  color: #f0f8ff;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+/**fim-Formatações de textos especifos**/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/**Cabeçalho**/
+.titulo-cabecalho {
+  color: #f0f8ff;
+  font-size: 2.5em;
+  padding: 10px 0px 10px 0px;
+}
+#nav-cabecalho {
+  padding: 0px 5px 10px 5px;
+  display: inline-block;
+}
+#nav-cabecalho a {
+  margin: 5px;
+  color: #f0f8ff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 3px 5px;
+  display: inline;
+}
+
+#nav-cabecalho a:hover {
+  transition: 0.5s;
+  color: #ffa500;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #9400d3;
+  border-radius: 15px;
+}
+#nav-cabecalho a:active {
+  transition: 0.1s;
+  color: #ff0000;
+  background-color: #f0f8ff;
+}
+/**Fim-Cabeçalho**/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/**Main**/
+.postagem {
+  float: left;
+  width: 640px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.postagem h2 , h1 {
+  margin: 8px;
+}
+
+.postagem h1 {
+  font-size: 1.8em;
+  border-bottom: 1px solid #ffa500;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0px 6px;
+}
+
+.postagem p {
+  margin: 8px;
+}
+
+.div-img {
+  display: inline-block;
+}
+.img {
+  width: 530px;
+  height: 330px;
+  border-radius: 15px;
+  background-color: #000;
+}
+/**fim-Main**/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/**Area lateral**/
+.area-lateral {
+  float: right;
+  width: 240px;
+  right: 170px;
+}
+
+.area-lateral h3 {
+  border-bottom: 1px solid #ffa500;
+  border-radius: 10px;
+  color: #f0f8ff;
+  font-size: 1.3em;
+  padding: 0px 6px;
+  margin: 5px;
+  margin-top: 20px;
+  font-weight: 800;
+  display: inline-block;
+}
+.area-lateral h4 {
+  color: #f0f8ff;
+  font-size: 1.1em;
+  padding: 0px 6px;
+  margin: 5px;
+  font-weight: 800;
+  display: inline-block;
+}
+.area-lateral p {
+  color: #f0f8ff;
+  font-size: 0.9em;
+  padding: 6px 0px;
+}
+
+.acesso-rapido {
+  position: fixed;
+  top: 125px;
+  right: 50px;
+}
+
+.acesso-rapido h3 {
+  color: #f0f8ff;
+  border-bottom: 1px solid #ffa500;
+  border-radius: 10px;
+  font-size: 1.3em;
+  margin: 10px;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.acesso-rapido h4 {
+  color: #f0f8ff;
+  font-size: 1em;
+  margin: 5px;
+  font-weight: 500;
+}
+
+.acesso-rapido a {
+  color: #f0f8ff;
+  border: 2px solid #000;
+  background-color: #ffa500;
+  border-radius: 15px;
+  width: max-content;
+  display: block;
+  padding: 5px;
+  font-size: 0.8em;
+}
+/**Fim-Area lateral**/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/**rodapé**/
+/**fim-rodapé**/
+/*-----------------------------------------------------------------------------------------------------------------*/
+
