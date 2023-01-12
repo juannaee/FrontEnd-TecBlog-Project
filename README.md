@@ -26,7 +26,8 @@ Em Português:
 
 
 In  English:
-#TecBlog
+
+# TecBlog
 
 ## Hello everyone, I did another little project, it's a FrontEnd project where I created an interface simulating the layout of a technology blog
 
